@@ -1,6 +1,6 @@
-import { useState } from 'react'
-import './App.css'
-import FlipCard from "./components/FlipCard.jsx"
+import { useState } from 'react';
+import './App.css';
+import FlipCard from "./components/FlipCard.jsx";
 
 const App = () => {
 
@@ -81,7 +81,6 @@ const App = () => {
         <h2>How good are you on the Civic Test? Test you knowledge here!</h2>
         <h3>Number of cards: {usCitizenshipTestCards.length}</h3>
       </div>
-      <br></br>
       {randomCard && (
       <FlipCard question={randomCard.question} answer={randomCard.answer}/>
       )}
