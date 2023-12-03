@@ -1,14 +1,13 @@
 :root {
-  --primary: #FFCE00;
-  --secondary: #FE4880;
+  --primary: #00eaff;
+  --secondary: #4860fe;
   --dark: #212121;
   --light: #F3F3F3;
 }
 
 .card {
-  margin: 100px auto 0;
-  width: 400px;
-  height: 600px;
+  width: 600px;
+  height: 400px;
   perspective: 1000px;
 }
 
